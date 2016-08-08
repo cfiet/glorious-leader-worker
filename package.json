@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker-setup": "bash docker-setup",
-    "docker-start": "bash docker-start"
+    "start": "touch .env && node index.js"
   },
   "repository": {
     "type": "git",
